@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/style.css">
+<script src="script/script.js"></script>
+<title>Bloco de Código com Botão</title>
+
+</head>
+<body>
+  <h1>Lorem Ipsum</h1>
+  <hr>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate molestiae nemo illum, animi id minima assumenda ad minus dolor odit sed ipsa cum totam maiores unde fugiat at dicta.</p>
+  <div class="container">
+    <div class="code-container" id="code-container">
+<pre>
+// Exemplo de código grande
+function exemplo() {
+  console.log("Este é um exemplo de código grande que causa rolagem horizontal.");
+  console.log("Agora o botão de copiar está à direita e não é afetado pela rolagem!");
+  console.log("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
+  console.log("Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+  console.log("Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.");
+  console.log("Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.");
+}
+</pre>
+    </div>
+    <button id="view-button" onclick="viewCode()"><span><img src="arrow.svg" alt=""></span></button>
+    <button id="copy-button" onclick="copyCode()"><span><img src="copy.svg" alt=""></span></button>
+  </div>
+</body>
+</html>
