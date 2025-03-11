@@ -1,5 +1,5 @@
 function copyCode() {
-  const code = document.getElementById('code-snippet').innerText;
+  const code = document.getElementById('code-container').innerText;
   navigator.clipboard.writeText(code).then(() => {
   }).catch((err) => {
     console.error("Erro ao copiar o código: ", err);
